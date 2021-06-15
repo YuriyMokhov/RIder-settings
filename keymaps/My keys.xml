@@ -1,0 +1,78 @@
+<keymap version="1" name="My keys" parent="Visual Studio">
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="alt 1" />
+    <keyboard-shortcut first-keystroke="back_slash" />
+  </action>
+  <action id="AddToFavoritesPopup" />
+  <action id="CloseActiveTab" />
+  <action id="CloseAllUnpinnedEditors">
+    <keyboard-shortcut first-keystroke="shift ctrl q" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+  </action>
+  <action id="CollapseAllRegions" />
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="alt slash" />
+  </action>
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift alt e" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="alt f3" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+  </action>
+  <action id="Graph.ZoomIn">
+    <keyboard-shortcut first-keystroke="equals" />
+  </action>
+  <action id="HippieCompletion" />
+  <action id="Jdbc.OpenConsole.New" />
+  <action id="Jdbc.OpenConsole.New.Generate" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl right" />
+  </action>
+  <action id="PinActiveTab">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="ctrl left" />
+  </action>
+  <action id="Print" />
+  <action id="RiderCollapseToDefinitions">
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="o" />
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="ctrl o" />
+    <keyboard-shortcut first-keystroke="shift alt c" />
+  </action>
+  <action id="RiderUnitTestTreeTextFilterAction">
+    <keyboard-shortcut first-keystroke="alt f3" />
+  </action>
+</keymap>
