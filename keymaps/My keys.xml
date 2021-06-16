@@ -5,6 +5,7 @@
     <keyboard-shortcut first-keystroke="back_slash" />
   </action>
   <action id="AddToFavoritesPopup" />
+  <action id="Arrangement.Rule.Edit" />
   <action id="CloseActiveTab" />
   <action id="CloseAllUnpinnedEditors">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
@@ -20,6 +21,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl slash" />
     <keyboard-shortcut first-keystroke="shift ctrl divide" />
     <keyboard-shortcut first-keystroke="alt slash" />
+  </action>
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="alt enter" />
   </action>
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
@@ -67,6 +72,9 @@
     <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
   <action id="Print" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
   <action id="RiderCollapseToDefinitions">
     <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="o" />
     <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="ctrl o" />
@@ -75,4 +83,6 @@
   <action id="RiderUnitTestTreeTextFilterAction">
     <keyboard-shortcut first-keystroke="alt f3" />
   </action>
+  <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.SetValue" />
 </keymap>
