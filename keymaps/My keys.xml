@@ -5,6 +5,7 @@
     <keyboard-shortcut first-keystroke="back_slash" />
   </action>
   <action id="AddToFavoritesPopup" />
+  <action id="Arrangement.Rule.Edit" />
   <action id="CloseActiveTab" />
   <action id="CloseAllUnpinnedEditors">
     <keyboard-shortcut first-keystroke="shift ctrl q" />
@@ -21,13 +22,37 @@
     <keyboard-shortcut first-keystroke="shift ctrl divide" />
     <keyboard-shortcut first-keystroke="alt slash" />
   </action>
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
+  <action id="Diff.ApplyLeftSide" />
+  <action id="Diff.ApplyRightSide" />
   <action id="Diff.NextChange" />
   <action id="Diff.PrevChange" />
-  <action id="EditorNextWord">
+  <action id="EditorLeftWithSelection">
+    <keyboard-shortcut first-keystroke="shift left" />
+  </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="end" />
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
-  <action id="EditorPreviousWord">
+  <action id="EditorLineEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift end" />
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
     <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift home" />
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
+  <action id="EditorNextWord" />
+  <action id="EditorPreviousWord" />
+  <action id="EditorRightWithSelection">
+    <keyboard-shortcut first-keystroke="shift right" />
   </action>
   <action id="ExpandAllRegions">
     <keyboard-shortcut first-keystroke="shift alt e" />
@@ -57,6 +82,9 @@
   <action id="HippieCompletion" />
   <action id="Jdbc.OpenConsole.New" />
   <action id="Jdbc.OpenConsole.New.Generate" />
+  <action id="List-selectNextColumnExtendSelection">
+    <keyboard-shortcut first-keystroke="shift right" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl right" />
   </action>
@@ -67,6 +95,9 @@
     <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
   <action id="Print" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
   <action id="RiderCollapseToDefinitions">
     <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="o" />
     <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="ctrl o" />
@@ -75,4 +106,15 @@
   <action id="RiderUnitTestTreeTextFilterAction">
     <keyboard-shortcut first-keystroke="alt f3" />
   </action>
+  <action id="Table-selectNextColumnExtendSelection">
+    <keyboard-shortcut first-keystroke="shift right" />
+  </action>
+  <action id="Table-selectPreviousColumnExtendSelection">
+    <keyboard-shortcut first-keystroke="shift left" />
+  </action>
+  <action id="Tree-selectParentExtendSelection">
+    <keyboard-shortcut first-keystroke="shift left" />
+  </action>
+  <action id="XDebugger.EditWatch" />
+  <action id="XDebugger.SetValue" />
 </keymap>
